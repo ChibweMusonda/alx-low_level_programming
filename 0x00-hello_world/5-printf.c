@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the print function
- *
- * description: using the main function 
- * this program prints "with proper grammar, but the outcome is a piece of art
- * return: 0
+ * main - Entry point
+ * Return:Always 0 (Sucess)
  */
 int main(void)
 {
