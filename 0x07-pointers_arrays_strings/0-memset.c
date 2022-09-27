@@ -8,15 +8,13 @@
  *
  * Return: pointer to the memory
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int x;
-
-	for (x = 0; x < n; x++)
+	while (n)
 	{
-		*(s + x) = b;
+		s[n - 1] = b;
+		n--;
 	}
 	return (s);
-
 }
 
